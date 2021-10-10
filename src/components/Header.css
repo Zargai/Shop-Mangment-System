@@ -1,0 +1,30 @@
+.twelve h1 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 160px;
+    text-align: center;
+    margin: auto;
+    white-space: nowrap;
+
+}.twelve h1 :before {
+    background-color : #c50000;
+    content : '';
+    display : block;
+    height : 3 px;
+    width : 75 px;
+
+}.twelve h1 :after {
+    background-color : #c50000;
+    content : '';
+    display : block;
+    position : absolute;
+    right : 0;
+    bottom : 0;
+    height : 3 px;
+    width : 75 px;
+
+}
+
+
